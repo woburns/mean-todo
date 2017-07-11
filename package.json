@@ -1,0 +1,16 @@
+{
+  "name": "mean-todo",
+  "version": "0.0.0",
+  "description": "Simple todo application.",
+  "main": "server.js",
+  "author": "woburns",
+  "dependencies": {
+    "body-parser": "~1.17.2",
+    "express": "~4.15.3",
+    "method-override": "~2.3.9",
+    "mongodb": "^2.2.30",
+    "mongojs-models": "^0.1.4",
+    "mongoose": "~4.11.1",
+    "morgan": "~1.8.2"
+  }
+}
