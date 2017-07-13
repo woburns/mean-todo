@@ -4,6 +4,9 @@
   "description": "Simple todo application.",
   "main": "server.js",
   "author": "woburns",
+  "engines": {
+    "node": "7.2.1"
+  },
   "dependencies": {
     "body-parser": "~1.17.2",
     "express": "~4.15.3",

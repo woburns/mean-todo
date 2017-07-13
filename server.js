@@ -77,7 +77,7 @@ app.delete("/api/todos/:todo_id", function(req, res){
 });
 
 app.get("*", function(req, res){
-    res.sendfile("./public/index2.html");
+    res.sendfile("./public/index.html");
 });
 // listen (start app with node server.js) ======================================
 app.listen(process.env.PORT || 8080);
