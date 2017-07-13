@@ -26,7 +26,6 @@ app.use(cors());
 var Todo = mongoose.model('Todo', {
     text: String
 });
-
 // routes
 //api
 app.get("/api/todos", function(req, res){
